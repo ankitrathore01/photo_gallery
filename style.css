@@ -1,0 +1,16 @@
+ div img{
+	margin: 1.5%;
+	padding: 1.5%;
+	
+	width: 20%;
+	filter: grayscale(100%);
+	border-radius: 25%;
+	transition: 2s;
+	display: inline-block;
+	opacity: 0.8
+}
+div img:hover{
+	transform: scale(1.2);
+	filter: grayscale(0);
+
+}
